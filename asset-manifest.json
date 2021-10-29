@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.df47513f.chunk.css",
+    "main.js": "/myportfolio/static/js/main.697d4f2b.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.697d4f2b.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.06f9ef0f.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.06f9ef0f.js.map",
+    "static/css/2.6c81a2b5.chunk.css": "/myportfolio/static/css/2.6c81a2b5.chunk.css",
+    "static/js/2.89594d21.chunk.js": "/myportfolio/static/js/2.89594d21.chunk.js",
+    "static/js/2.89594d21.chunk.js.map": "/myportfolio/static/js/2.89594d21.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/2.6c81a2b5.chunk.css.map": "/myportfolio/static/css/2.6c81a2b5.chunk.css.map",
+    "static/css/main.df47513f.chunk.css.map": "/myportfolio/static/css/main.df47513f.chunk.css.map",
+    "static/js/2.89594d21.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.89594d21.chunk.js.LICENSE.txt",
+    "static/media/Calculator.b6d863d4.jpg": "/myportfolio/static/media/Calculator.b6d863d4.jpg",
+    "static/media/App.css": "/myportfolio/static/media/Nature.f5578259.jpeg",
+    "static/media/Portfolio.3f606398.jpg": "/myportfolio/static/media/Portfolio.3f606398.jpg",
+    "static/media/Priyansh.e12acf62.jpg": "/myportfolio/static/media/Priyansh.e12acf62.jpg",
+    "static/media/To-do.c9f1c8f5.jpg": "/myportfolio/static/media/To-do.c9f1c8f5.jpg",
+    "static/media/corona-.534d68e5.jpg": "/myportfolio/static/media/corona-.534d68e5.jpg",
+    "static/media/laptopcart.71a9865c.jpg": "/myportfolio/static/media/laptopcart.71a9865c.jpg",
+    "static/media/weatherblack.4083559f.png": "/myportfolio/static/media/weatherblack.4083559f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06f9ef0f.js",
+    "static/css/2.6c81a2b5.chunk.css",
+    "static/js/2.89594d21.chunk.js",
+    "static/css/main.df47513f.chunk.css",
+    "static/js/main.697d4f2b.chunk.js"
+  ]
+}
