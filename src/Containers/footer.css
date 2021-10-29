@@ -1,0 +1,12 @@
+
+.brand_icons{
+  font-size: 19px;
+  margin-top: 8px;
+  
+}
+
+.bicon:hover{
+  transition: all 0.2s ease-in-out;
+   color:#fff;
+  
+}

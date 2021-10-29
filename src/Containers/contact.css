@@ -1,0 +1,102 @@
+
+.contact-text{
+color: orange;
+font-family: "Merriweather";
+margin: 5px;
+padding-top: 25px;
+font-size: 22px;
+text-transform: capitalize;
+text-align: center;
+
+}
+.Contact-Left-Details{
+  background: black;
+  color: gray;
+  text-align: center;
+  padding: 53px;
+  word-break: break-all;
+  
+}
+
+
+.Right-Side-Form{
+
+margin-left: 0px;
+text-align: left;
+display: block;
+
+
+}
+.Right-Side-Form:focus{
+  font-size: 20px;
+  
+ 
+}
+
+
+.icon{
+  color: orange;
+  font-size: 20px;
+  width: auto;
+  height: 60px;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.left-text{
+color: grey;
+text-align: center;
+font-size: 16px;
+word-break: break-all;
+
+}
+
+.Contact-form{
+  color: orange;
+  font-size: 17px;
+}
+
+.Contact-form .formInput{
+color:grey;
+
+}
+.Contact-form .form-control{
+ box-shadow: none; 
+ border: none; 
+background: #fff;
+border: 2px solid lightgrey;
+font-size: 18px;
+
+}
+.Contact-form .form-control:focus{
+  border: 3px solid grey;
+ 
+}
+
+.btn-contact{
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  width: 100px;
+  margin:0 auto;
+  border: none;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  border: 1px solid var(--primary-red);
+  background: #fff;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 400;
+  padding: 5px;
+
+
+}
+.btn-contact:hover{
+  background-color: var(--primary-hover-red);
+  color: #fff;
+  
+  } 

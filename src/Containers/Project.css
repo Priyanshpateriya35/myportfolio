@@ -1,0 +1,28 @@
+.bdy-caro{
+  margin-top: 5px;
+  margin-bottom: 5px;
+    
+}
+.bdy-caro .text-caro {
+  color: orange;
+  font-weight: 800;
+  text-decoration: none;
+  
+}
+.bdy-caro .text-caro:hover{
+  color: #fff;
+}
+
+.project-caro{
+  color: orange;
+ background-color:grey;
+ font-family:"Merriweather" ;
+ font-size: 22px;
+ letter-spacing: 0.54px;
+ 
+
+}
+.project-caro:hover{
+  background:lightgray;
+}
+

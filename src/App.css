@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: orange;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-hover-orange: orange;
+  
+
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  z-index: 1;
+  
+}
+
+.body {
+  font-family: "Roboto Condensed" sans-serif;
+  
+  
+  
+ 
+}
+nav {
+  z-index: 2;
+ 
+}
+/*********** LOGO STYLE **********************/
+.Port {
+  width: 5.49rem;
+  /*
+ ///////////////////////////////
+///////////////////////////////
+  */
+}
+/**************** MENU LINKS ************************/
+nav a.nav-link {
+  font-weight: 500;
+  
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li {
+  text-transform: uppercase;
+ 
+  
+}
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important; 
+  border-bottom: 0.1875rem solid var(--primary-dark);
+  font-weight: 500;
+  font-size:15px;
+ 
+}
+.navbar-brand {
+  
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 5.5rem !important;
+  
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+ 
+}
+/* USE this CSS to make link tag hover not active */
+ .navbar-nav > li > a:hover{
+  border-bottom: 0.1875rem solid var(--primary-orange);
+  color: var(--primary-hover-orange) !important;
+}  
+.Header-wrapper {
+  position: relative;
+  background: url(Images/Nature.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  
+}
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed" sans-serif;
+  z-index: 2;
+}
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/*----------typed text----------*/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/*-----------Header Main Offer button-----------*/
+.btn-main-offer {
+  /* border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  background-color: orange;
+  text-decoration: none;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin-top: 2rem;  */
+
+  margin-top: 2rem;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color:transparent;
+  display: inline-block;
+  padding: 11px 25px;
+   
+  border-color: var(--primary-hover-red);
+  border-radius: 4px; 
+  color: var(--primary-red);
+  border: 2px solid ;
+  font-weight: 500;
+  -webkit-transition: 0.25 all;
+  transition: 0.3s ease-in ;
+}
+.btn-main-offer:hover {
+  /* text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  translate: 0.4s ease-in-out; */
+  background-color: var(--primary-red) ;
+  border: transparent;
+  color: #fff;
+
+  
+}
+/*-----------particles js--------------*/
+ .tsparticles-canvas-el {
+  position: absolute;
+  height: 30vh;
+  width: 100vw;
+ z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+} 
+
+

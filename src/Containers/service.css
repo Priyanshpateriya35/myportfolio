@@ -1,0 +1,77 @@
+.item{
+   margin-top:14px ;
+  margin-bottom: 20px; 
+ 
+}
+h3 {
+  font-size: 30px;
+  color: var(--primary-orange);
+  padding-top: 30px;
+  padding-bottom: 25px;
+
+  
+}
+.item .card:hover h3{
+  color: #fff;
+  
+}
+
+.My-services{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: "Merriweather"  ;
+  text-align: center;
+  color: var(--primary-orange); 
+
+}
+
+.item .card{ 
+ width: 18rem;
+ height: 280px;
+  border: none;
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  border-radius: 0;
+  border-bottom: 5px solid orange ;
+   /* box-shadow: 5px 5px 15px orange;  */
+  transition: all 0.3s ease-in;
+  -webkit-transition:all 0.3s ease-in ;
+  -moz-transition: all 0.3s ease-in;
+  font-family: "Merriweather";
+  font-size: 17px;
+  text-align: center;
+  justify-content: center;
+  
+
+}
+.item .card:hover{
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+
+}
+
+.item .card .icon{
+  background-color:orange;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  padding-bottom: 12px;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 58px;
+  text-align: center;
+  
+  
+}
+
+.card .icon:hover{
+background-color: #fff;
+color: orange;
+}
+
+
+
+
